@@ -1,0 +1,26 @@
+{
+  "dataset": "Wisconsin Diagnostic Breast Cancer (scikit-learn)",
+  "seed": 42,
+  "test_size": 0.2,
+  "pca_components_and_qubits": 4,
+  "classical_rbf_svm": {
+    "accuracy": 0.9649,
+    "balanced_accuracy": 0.9573,
+    "precision": 0.9595,
+    "recall": 0.9861,
+    "f1": 0.9726,
+    "roc_auc": 0.9931,
+    "fit_seconds": 0.017,
+    "kernel_evaluations": 0
+  },
+  "quantum_fidelity_kernel_svm": {
+    "accuracy": 0.6579,
+    "balanced_accuracy": 0.5952,
+    "precision": 0.6897,
+    "recall": 0.8333,
+    "f1": 0.7547,
+    "roc_auc": 0.6653,
+    "fit_seconds": 0.1392,
+    "kernel_evaluations": 258895
+  }
+}
